@@ -1,0 +1,29 @@
+.badge{
+  width:20px;
+  height:20px;
+  background-color:tomato;
+  border-radius:100%;
+  color:white;
+}
+.badge_plus{
+  width:40px;
+  height:20px;
+  background-color:tomato;
+  border-radius:100%;
+  color:white;
+}
+.absolute_pos{
+  position:absolute;
+  right:-20px;
+  bottom: 15px;
+}
+
+.dot_badge{
+  width:5px;
+  height:5px;
+  background-color:tomato;
+  border-radius:100%;
+  position:absolute;
+  top:0px;
+  left:-2px;
+}

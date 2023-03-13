@@ -1,0 +1,56 @@
+.mySlides {display: none;}
+.mySlides img{
+vertical-align: middle;
+width: 100%;  
+height: 150px;  
+border-radius: 10px;
+} 
+
+/* advertising container */
+.advertising {  
+  position: relative;
+  height: 150px;
+  margin-bottom: 10px;
+  top:0px;
+}
+     
+/* Caption text */
+.advertising .text {
+    color: #f2f2f2;
+    font-size: x-large;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+   /* infinite_move animation */
+    animation: infinite_move 4s infinite;
+    
+}
+        
+/* Number text (1/3 etc) */
+.advertising .numbertext {
+    color: #f2f2f2;
+    font-size: x-large;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 3.5s;
+}
+
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes infinite_move{
+  0%{left: 0%;}
+  50%  {left: 60%;}
+  100% {left: 0%;}
+}

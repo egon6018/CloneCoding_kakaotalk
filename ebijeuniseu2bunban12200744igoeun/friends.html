@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>친구</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  <div class="status-bar_with_header">
+           <!--Status-bar  -->
+    <div class="status-bar flex_frequently">
+      <div class="status-bar__column">
+        <span>10:23</span>       
+        <i class="fa-solid fa-person-walking"></i>
+      </div>
+      <div class="status-bar__column">
+
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-brands fa-bluetooth-b"></i>
+        <i class="fa-solid fa-location-dot"></i>
+        <i class="fa-solid fa-wifi"></i>
+        <i class="fa-solid fa-signal"></i>    
+        <i class="fa-solid fa-battery-full"></i>        
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="screen-header flex_frequently">
+      <h1 class="screen-header__title">
+        친구
+      </h1>
+      <h2 class="screen-header__icons">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-user-plus"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-gear"></i>
+      </h2>
+    </header>
+  </div>
+
+    <!-- Main -->
+  <main class="friends">
+       <!--  광고  -->
+    <div class="advertising">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/advertising/img_nature_wide.jpeg">
+        <div class="text">광고문구1</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/advertising/img_snow_wide.jpeg">
+        <div class="text">광고문구2</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/advertising/img_mountains_wide.jpeg">
+        <div class="text">광고문구3</div>
+      </div>
+    </div>
+
+           <!--  내프로필  -->
+    <div class="profile flex_frequently">
+      <div class="profile__info flex_start">
+        <div class="profile__info__avatar flex_change_axis">
+          <img src="images/avatar/default.PNG" alt="기본이미지" class="avatar">               
+        </div>
+        <div class="profile__info__txt">
+          <h2>이고은</h2>          
+        </div>
+      </div>
+      <div class="profile__etc">
+        <h5>You will never walk alone
+          <i class="fa-solid fa-caret-right"></i>
+        </h5>
+      </div>
+    </div>
+    
+    <!--  내 멀티프로필  -->
+    <div class="multi_profile">
+      <div class="title flex_frequently">
+        <p>내 멀티프로필</p>
+        <p><i class="fa-solid fa-chevron-up"></i></p>
+      </div>
+      <div class="contents flex_start">
+        <div class="avatar--medium avatar-div flex_change_axis">
+          <h2><i class="fa-solid fa-plus"></i></h2>
+        </div>
+        <div class="profile__info__txt">
+          <h4>친구별로 다른 프로필을 설정해보세요!</h4>
+        </div>
+      </div>
+    </div>
+
+    <!--  생일인 친구  -->
+    <div class="birthday_friends">
+      <div class="title flex_frequently">
+        <p>생일인 친구</p>
+        <p><i class="fa-solid fa-chevron-up"></i></p>
+      </div>
+      <div class="contents">
+        <div class="flex_frequently bottom_margin_10">
+          <div class="flex_start">
+            <div class="right_margin_10">
+              <img src="images/avatar/default.PNG" class="avatar--medium ">
+            </div>
+            <div>
+              <h4>엄마🎂</h4>
+            </div>
+          </div>
+          <div class="birthday">
+            <p>선물하기 <i class="fa-solid fa-gift"></i></p>
+          </div>
+        </div>
+        <div class="flex_frequently bottom_margin_10">
+          <div class="flex_start">
+            <div class="avatar--medium avatar-div 
+ flex_change_axis right_margin_10" 
+              style="background-color:#ff6666;color:white;border-color:white;">
+              <i class="fa-solid fa-cake-candles "></i>
+            </div>
+            <div>
+              <h4>친구의 생일을 확인해보세요!</h4>
+            </div>
+          </div>
+          <div>
+            <p>4 <i class="fa-solid fa-chevron-right"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--  업데이트한 친구  -->
+    <div class="updated_friends">
+      <div class="title flex_frequently">
+        <p>업데이트한 친구</p>
+        <p><i class="fa-solid fa-chevron-up"></i></p>
+      </div>
+
+      <div class="updated_friends__list flex_frequently side_padding_20" id="myDIV">
+        <div class="flex_change_axis">
+          <div class="dot_badge"></div>
+          <img src="images/avatar/default.PNG" class="avatar--medium">
+          <h6 class="name">동생</h6>
+        </div>
+        <div class="flex_change_axis"> 
+          <div class="dot_badge"></div>
+          <img src="images/avatar/default.PNG" class="avatar--medium">
+          <h6 class="name">친구1</h6>
+        </div>
+        <div> 
+          <div class="dot_badge"></div>
+          <img src="images/avatar/default.PNG" class="avatar--medium">
+          <h6 class="name">친구2</h6>
+        </div>
+        <div> 
+          <div class="dot_badge"></div>
+          <img src="images/avatar/default.PNG" class="avatar--medium">
+          <h6 class="name">친구3</h6>
+        </div>
+        <div> 
+          <div class="dot_badge"></div>
+          <img src="images/avatar/default.PNG" class="avatar--medium">
+          <h6 class="name">친구4</h6>
+        </div>
+        <div> 
+          <div class="dot_badge"></div>
+          <img src="images/avatar/default.PNG" class="avatar--medium">
+          <h6 class="name">친구5</h6>
+        </div>
+      </div>
+    </div>
+
+    <!--  즐겨찾기  -->
+    <div class="favorite">
+      <div class="title flex_frequently">
+        <p>즐겨찾기</p>
+        <p><i class="fa-solid fa-chevron-up"></i></p>
+      </div>
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <img src="images/avatar/default.PNG" alt="기본이미지" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>아빠</h4>           
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <img src="images/avatar/default.PNG" alt="기본이미지" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>엄마</h4>
+            <p></p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start updated_friends__list">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <div class="dot_badge"></div>
+            <img src="images/avatar/default.PNG" alt="기본이미지" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>동생</h4>
+            <p></p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+
+    <!--  추천친구  -->
+    <div class="recommand_friends">
+      <div class="title flex_frequently">
+        <p>추천친구</p>
+        <p><i class="fa-solid fa-chevron-up"></i></p>
+      </div>
+      <div class="profile flex_frequently">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar right_margin_10 avatar--medium avatar-div--purple flex_change_axis">
+            <h2><i class="fa-regular fa-face-smile-wink"></i></h2>
+          </div>
+          <div class="profile__info__txt">
+            <h4>새로운 친구를 만나보세요!</h4>         
+          </div>
+        </div>
+        <div>
+          <p>100<i class="fa-solid fa-chevron-right"></i></p>
+        </div>
+      </div>      
+    </div>
+    <!--  채널  -->
+    <div class="channel">
+      <div class="title flex_frequently">
+        <p>채널</p>
+        <p><i class="fa-solid fa-chevron-up"></i></p>
+      </div>
+      <div class="profile flex_frequently">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar right_margin_10 flex_change_axis">
+            <h2><img src="images/avatar/kakao-channel.png" class="avatar--medium"></h2>
+          </div>
+          <div class="profile__info__txt">
+            <h4>채널</h4>         
+          </div>
+        </div>
+        <div>
+          <p>69<i class="fa-solid fa-chevron-right"></i></p>
+        </div>
+      </div>
+    </div>
+    <!--  친구  -->
+    <div class="friends">
+      <div class="title flex_frequently">
+        <p>친구</p>
+        <p><i class="fa-solid fa-chevron-up"></i></p>
+      </div>
+
+    <!--동생-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start updated_friends__list">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <div class="dot_badge"></div>
+            <img src="images/avatar/default.PNG" alt="동생" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>동생</h4>
+            <p>야호</p>
+          </div>
+        </div>
+        <div class="profile__etc">
+          <h5>
+            새삥-지코
+            <i class="fa-solid fa-caret-right"></i>
+          </h5>
+        </div>
+      </div>
+    <!--아빠-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <img src="images/avatar/default.PNG" alt="아빠" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>아빠</h4>
+            <p></p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>    
+    <!--엄마-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <img src="images/avatar/default.PNG" alt="엄마" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>엄마</h4>
+            <p></p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>   
+    <!--친구1-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start updated_friends__list">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <div class="dot_badge"></div>
+            <img src="images/avatar/default.PNG" alt="친구1" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구1</h4>
+            <p>시험 얼마 안남았다..</p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>  
+    <!--친구2-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start updated_friends__list">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <div class="dot_badge"></div>
+            <img src="images/avatar/default.PNG" alt="친구2" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구2</h4>
+            <p>과제 하는중ㅠㅠ</p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div> 
+    <!--친구3-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start updated_friends__list">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <div class="dot_badge"></div>
+            <img src="images/avatar/default.PNG" alt="친구3" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구3</h4>
+            <p>종강은 언제</p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>   
+    <!--친구4-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start updated_friends__list">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <div class="dot_badge"></div>
+            <img src="images/avatar/default.PNG" alt="친구4" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구4</h4>
+            <p>시험 공부 화이팅</p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    <!--친구5-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start updated_friends__list">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <div class="dot_badge"></div>
+            <img src="images/avatar/default.PNG" alt="친구5" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구5</h4>
+            <p>종강 얼마 안남았다!!</p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>   
+      <!--친구6-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start updated_friends__list">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">            
+            <img src="images/avatar/default.PNG" alt="친구6" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구6</h4>
+            <p></p>
+          </div>
+        </div>
+        <div class="profile__etc">
+          <h5>
+            사건의 지평선-윤하
+            <i class="fa-solid fa-caret-right"></i>
+          </h5>
+        </div>
+      </div>
+    </div>
+     <!--친구7-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <img src="images/avatar/default.PNG" alt="친구7" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구7</h4>
+            <p>공부 하기 싫다..</p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>   
+    <!--친구8-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <img src="images/avatar/default.PNG" alt="친구8" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구8</h4>
+            <p> </p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+        <!--친구9-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <img src="images/avatar/default.PNG" alt="친구9" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구9</h4>
+            <p> </p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>     
+    <!--친구10-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <img src="images/avatar/default.PNG" alt="친구10" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구10</h4>
+            <p>여행 가고 싶다</p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>   
+    <!--친구11-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <img src="images/avatar/default.PNG" alt="친구11" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구11</h4>
+            <p></p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>   
+    <!--친구12-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <img src="images/avatar/default.PNG" alt="친구12" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구12</h4>
+            <p></p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>   
+    <!--친구13-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <img src="images/avatar/default.PNG" alt="친구13" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구13</h4>
+            <p></p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>   
+    <!--친구14-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <img src="images/avatar/default.PNG" alt="친구14" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구14</h4>
+            <p></p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>   
+    <!--친구15-->
+      <div class="profile flex_frequently bottom_margin_10">
+        <div class="profile__info flex_start">
+          <div class="profile__info__avatar flex_change_axis right_margin_10">
+            <img src="images/avatar/default.PNG" alt="친구15" class="avatar--medium">
+          </div>
+          <div class="profile__info__txt">
+            <h4>친구15</h4>
+            <p>D-12</p>
+          </div>
+        </div>
+        <div>
+        
+        </div>
+      </div>   
+  </main>
+
+  <!-- NAV -->
+  <nav class="flex_frequently padding_20">
+    <div>
+      <a href="friends.html">
+        <h1><i class="fa-solid fa-user"></i></h1>
+      </a>
+    </div>
+    <div>
+      <a href="chats.html">
+        <h1><i class="fa-regular fa-comment"></i></h1>
+        <h6 class="flex_change_axis badge_plus absolute_pos">574</h6>
+      </a>
+    </div>
+    <div>
+      <a href="view.html">
+        <h1><i class="fa-regular fa-eye"></i></h1>
+      </a>
+    </div>
+    <div>
+      <a href="shopping.html">
+        <h1><i class="fa-solid fa-cart-shopping"></i></h1>
+      </a>
+    </div>
+    <div>
+      <a href="more.html">
+        <h1><i class="fa-solid fa-ellipsis"></i></h1>
+      </a>
+    </div>
+  </nav>
+
+
+  <!--  아이콘들 -->
+  <script src="https://kit.fontawesome.com/00bcf2a9e4.js" crossorigin="anonymous"></script>
+  <!--  광고를 위한 자바스킙트 파일  -->
+  <script type="text/javascript" src="script.js"></script>
+
+
+</body>
+
+</html>

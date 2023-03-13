@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>채팅</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/> 
+</head>
+
+<body>
+  <div class="status-bar_with_header">
+           <!--Status-bar  -->
+    <div class="status-bar flex_frequently">
+      <div class="status-bar__column">
+        <span>10:23</span>  
+        <i class="fa-solid fa-person-walking"></i>
+      </div>
+      <div class="status-bar__column">
+
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-brands fa-bluetooth-b"></i>
+        <i class="fa-solid fa-location-dot"></i>
+        <i class="fa-solid fa-wifi"></i>
+        <i class="fa-solid fa-signal"></i>    
+        <i class="fa-solid fa-battery-full"></i>        
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="screen-header flex_frequently">
+      <h1 class="screen-header__title" >
+        <div class="dot_badge_chatting"></div>
+        <a href="chats.html" style="color:#6699ff">채팅</a>
+        <div class="dot_badge_openchatting"></div>
+        <a href="openchats.html">오픈채팅</a>
+      </h1>      
+      <h2 class="screen-header__icons">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-user-plus"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-gear"></i>
+      </h2>
+    </header>
+  </div>
+  
+  <!-- Main -->
+  <main class="chats">
+    <!--  광고  -->
+    <div class="advertising">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/advertising/img_nature_wide.jpeg">
+        <div class="text">광고문구1</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/advertising/img_snow_wide.jpeg">
+        <div class="text">광고문구2</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/advertising/img_mountains_wide.jpeg">
+        <div class="text">광고문구3</div>
+      </div>
+    </div>
+
+    <!--  구조가 friends.html 내 프로필 과 같음 -->
+    <!-- 채팅1 -->  
+    <div class="profile flex_frequently bottom_margin_10">
+      <div class="profile__info flex_start">
+        <div class="profile__info__avatar right_margin_10">
+          <img src="images/avatar/kakao.png" alt="카카오톡" class="avatar">
+        </div>
+        <div class="profile__info__txt">
+          <h2>카카오톡</h2>
+          <p>[PC버전 자동로그인]</p>
+        </div>
+
+      </div>
+      <div class="flex_end">
+        <p>오후 2:00</p>
+        <p class="badge flex_change_axis">1</p>
+      </div>
+    </div>
+
+    <!-- 채팅2 -->
+    <div class="profile flex_frequently bottom_margin_10">
+      <div class="profile__info flex_start">
+        <div class="profile__info__avatar right_margin_10">
+          <img src="images/avatar/default.PNG" alt="엄마" class="avatar--small z_index_3">
+          <img src="images/avatar/default.PNG" alt="아빠" class="avatar--small z_index_1">
+          <img src="images/avatar/default.PNG" alt="동생" class="avatar--small z_index_2">
+        </div>
+        <div class="profile__info__txt">
+          <h2 style="float:left;margin-right:5px">사랑하는 가족</h2>          
+          <p style="float:left;margin-top:3px">4</p>
+          <p style="clear:both">오늘 언제 와?</p>
+        </div>
+      </div>
+      <div class="flex_end">
+        <p>어제</p>
+<!--         <p class="badge flex_change_axis">1</p> -->
+      </div>
+    </div>
+
+    <!-- 채팅3 -->  
+    <div class="profile flex_frequently bottom_margin_10">
+      <div class="profile__info flex_start">
+        <div class="profile__info__avatar right_margin_10">
+          <img src="images/avatar/default.PNG" alt="친구4" class="avatar">
+        </div>
+        <div class="profile__info__txt">
+          <h2>친구4</h2>
+          <p>과제 다 함?</p>
+        </div>
+      </div>
+      <div class="flex_end">
+        <p>오후 12:00</p>
+        <p class="badge flex_change_axis">1</p>
+      </div>
+    </div>
+    
+    <!-- 채팅4 -->
+     <div class="profile flex_frequently bottom_margin_10">
+      <div class="profile__info flex_start">
+        <div class="profile__info__avatar right_margin_10">
+          <img src="images/avatar/default.PNG" alt="친구1" class="avatar--tiny">
+          <img src="images/avatar/default.PNG" alt="친구2" class="avatar--tiny">
+          <img src="images/avatar/default.PNG" alt="친구3" class="avatar--tiny">
+          <img src="images/avatar/default.PNG" alt="친구5" class="avatar--tiny">
+          
+        </div>
+        <div class="profile__info__txt">
+          <h2 style="float:left;margin-right:5px">인하대 20학번</h2>          
+          <p style="float:left;margin-top:3px">6</p>
+          <p style="clear:both">이따가 저녁 ㄱㄱ</p>
+        </div>
+
+      </div>
+      <div class="flex_end">
+        <p>오후 5:30</p>
+        <p class="badge flex_change_axis">5</p> 
+      </div>
+    </div>
+
+    <!-- 채팅5 -->
+     <div class="profile flex_frequently bottom_margin_10">
+      <div class="profile__info flex_start">
+        <div class="profile__info__avatar right_margin_10">
+          <img src="images/avatar/default.PNG" alt="친구5" class="avatar--tiny">
+          <img src="images/avatar/default.PNG" alt="친구6" class="avatar--tiny">
+          <img src="images/avatar/default.PNG" alt="친구7" class="avatar--tiny">
+          <img src="images/avatar/default.PNG" alt="친구8" class="avatar--tiny">          
+        </div>
+        <div class="profile__info__txt">
+          <h2 style="float:left;margin-right:5px">고등학교 칭구들</h2>          
+          <p style="float:left;margin-top:3px">10</p>
+          <p style="clear:both">1월달에 글램핑 고??</p>
+        </div>        
+      </div>
+      <div class="flex_end">
+        <p>오후 10:00</p>
+        <p class="badge flex_change_axis">56</p> 
+      </div>
+    </div>
+
+    <!-- 채팅6 -->  
+    <div class="profile flex_frequently bottom_margin_10">
+      <div class="profile__info flex_start">
+        <div class="profile__info__avatar right_margin_10">
+          <img src="images/avatar/choonsik.jpg" alt="채널춘식이" class="avatar">
+        </div>
+        <div class="profile__info__txt">
+          <h2>채널 춘식이</h2>
+          <p>(광고)[채널춘식이]라춘듀오가 추는 재해석한<br>
+            블랙핑크 'Shut Down' 숏MV 대공개!</p>
+        </div>
+      </div>
+      <div class="flex_end">
+        <p>오후 2:02</p>
+        <!--<p class="badge flex_change_axis">1</p>-->
+      </div>
+    </div>
+
+    <!-- 채팅7 -->  
+    <div class="profile flex_frequently bottom_margin_10">
+      <div class="profile__info flex_start">
+        <div class="profile__info__avatar right_margin_10">
+          <img src="images/avatar/kakaofriends.jpg" alt="카카오프렌즈" class="avatar">
+        </div>
+        <div class="profile__info__txt">
+          <h2>카카오프렌즈</h2>
+          <p>(광고)매일 열어보는 달콤함 어드벤트<br>
+            캘린더 프렌즈 초콜렛과 스페셜...</p>
+        </div>
+      </div>
+      <div class="flex_end">
+        <p>오후 12:06</p>
+        <!--<p class="badge flex_change_axis">1</p>-->
+      </div>
+    </div>
+
+    <!-- 채팅8 -->  
+    <div class="profile flex_frequently bottom_margin_10">
+      <div class="profile__info flex_start">
+        <div class="profile__info__avatar right_margin_10">
+          <img src="images/avatar/kakaomakers.jpg" alt="카카오메이커스" class="avatar">
+        </div>
+        <div class="profile__info__txt">
+          <h2>카카오메이커스</h2>
+          <p>(광고)이야기 가득, 박물관이 살아있다<br>
+            ...</p>
+        </div>
+      </div>
+      <div class="flex_end">
+        <p>오전 9:25</p>
+        <p class="badge flex_change_axis">1</p>
+      </div>
+    </div>
+
+    <!-- 채팅9 -->  
+    <div class="profile flex_frequently bottom_margin_10">
+      <div class="profile__info flex_start">
+        <div class="profile__info__avatar right_margin_10">
+          <img src="images/avatar/default.PNG" alt="친구4" class="avatar">
+        </div>
+        <div class="profile__info__txt">
+          <h2>친구15</h2>
+          <p>시험끝나고 ㄱㄱ</p>
+        </div>
+      </div>
+      <div class="flex_end">
+        <p>오후 10:36</p>
+        <!--<p class="badge flex_change_axis">1</p>-->
+      </div>
+    </div>
+  </main>
+
+  <!-- NAV -->
+  <nav class="flex_frequently padding_20">
+    <div>
+      <a href="friends.html">
+        <h1><i class="fa-regular fa-user"></i></h1>
+      </a>
+    </div>
+    <div>
+      <a href="chats.html">
+        <h1><i class="fa-solid fa-comment"></i></h1>
+        <h6 class="flex_change_axis badge_plus absolute_pos">574</h6>
+      </a>
+    </div>
+    <div>
+      <a href="view.html">
+        <h1><i class="fa-regular fa-eye"></i></h1>
+      </a>
+    </div>
+    <div>
+      <a href="shopping.html">
+        <h1><i class="fa-solid fa-cart-shopping"></i></h1>
+      </a>
+    </div>
+    <div>
+      <a href="more.html">
+        <h1><i class="fa-solid fa-ellipsis"></i></h1>
+      </a>
+    </div>
+  </nav>
+
+  <!--  아이콘들 -->
+  <script src="https://kit.fontawesome.com/00bcf2a9e4.js" crossorigin="anonymous"></script>  
+  <!--  광고를 위한 자바스킙트 파일  -->
+  <script type="text/javascript" src="script.js"></script>
+
+
+</body>
+
+</html>

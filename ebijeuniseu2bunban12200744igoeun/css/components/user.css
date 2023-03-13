@@ -1,0 +1,104 @@
+/* 내 프로필 */
+.avatar{
+  width:50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right:5px;
+}
+
+.profile__etc{
+  border:2px solid #069861;
+  border-radius: 20px;
+  padding:7px;
+}
+.profile__etc i{
+  color:#069861;
+}
+
+/* 내 멀티 프로필 */
+.multi_profile__content > *{
+  margin-right:10px;
+}
+
+.avatar--medium{
+  width:40px;
+  height:40px;
+  border-radius:15px;
+  
+}
+.avatar-div{
+  border:var(--main-border);
+  background-color:#f5f5f5;
+  margin-right:10px;
+}
+
+.name{
+  margin-top:5px;
+  width:40px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+/*   border:1px solid red; */
+  text-align:center;
+}
+.updated_friends__list > div{
+  position:relative;
+}
+
+/* 생일인 친구 */
+.birthday{
+  border:red 1px solid;
+  padding:5px;
+  border-radius: 15px;
+}
+.birthday i{
+  color:red;
+}
+
+/* 추천친구 */
+.recommand_friends h2>i{
+  color:white;
+}
+.avatar-div--purple{
+  background-color: purple;
+}
+/* .contents */
+/* avatar--small  */
+main.chats .profile__info__avatar{
+  position:relative;
+  width:50px;
+  height:50px;
+}
+.avatar--small{
+  width:25px;
+  height:25px;
+  border-radius:10px;
+  border:3px solid white;
+}
+
+.z_index_1{
+  z-index:1;
+  position:absolute; /*부모에게는 relative, 자식들에게는 absolute*/
+  bottom:0px;
+  left:0px;
+}
+.z_index_2{
+  z-index:2;
+  position:absolute;
+  bottom:0px;
+  right:0px;
+}
+.z_index_3{
+  z-index:3;
+  position:absolute;
+  top:0px;
+  left:12px;
+  right:12px;
+}
+
+/* avatar--tiny */
+.avatar--tiny{
+  width:22px;
+  height:22px;
+  border-radius:10px;
+}

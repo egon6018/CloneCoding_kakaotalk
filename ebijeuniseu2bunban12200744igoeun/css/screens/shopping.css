@@ -1,0 +1,4 @@
+main.shopping .shopping__icons{
+  padding-block:30px;
+  border-top:var(--main-border);
+}

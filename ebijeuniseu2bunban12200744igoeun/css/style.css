@@ -1,0 +1,107 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import "variable.css";
+
+/* Components */
+@import "components/status_bar.css";
+@import "components/screen_header.css";
+@import "components/nav.css";
+@import "components/advertising.css";
+@import "components/user.css";
+@import "components/badge.css";
+
+/* Screens */
+@import "screens/index.css";
+@import "screens/friends.css";
+@import "screens/view.css";
+@import "screens/chats.css";
+@import "screens/shopping.css";
+@import "screens/more.css";
+
+
+
+/* body */
+body{
+font-family: 'Jua', sans-serif;
+/* padding:20px; */
+}
+
+/* TEXT */
+h1{font-size:xx-large;
+  color:var(--main-txt-color);}
+h2{font-size:x-large;
+  color:var(--main-txt-color);}
+h3{font-size:x-large;
+  color:var(--sub-txt-color);}
+h4{font-size:large;
+  color:var(--main-txt-color);}
+h5{font-size:large;
+  color:var(--sub-txt-color);}
+h6{font-size:medium;color:var(--main-txt-color);}
+p{font-size:medium;
+  color:var(--sub-txt-color);}
+
+/* Flexbox  */
+.flex_frequently{
+  display:flex; /*block단위이던게 inline tag로 바뀜*/
+  justify-content:space-between; /*주축=가로축=main축*/
+  align-items: center;  /*세로축=sub축*/
+  width:97%;
+}
+
+.flex_change_axis{ /*x축과 y축을 바꾸는*/
+  display:flex;
+  flex-direction: column; /*가로축이었던 main축을 세로축으로, 세로축이었던 sub축을 가로축으로 바꿈*/
+  align-items: center;
+  justify-content:center;
+}
+
+.flex_start{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex_end{
+  display:flex;
+  flex-direction: column; 
+  align-items: flex-end;
+  justify-content:center;
+}
+
+
+/* 메인 */
+main{
+  height: 500vh;
+  margin-top:130px;
+  padding-inline:20px;
+}
+
+.status-bar_with_header{
+  position:fixed;
+  width: 100%;
+  top:0;
+  background-color: white;
+  z-index: 99;
+}
+
+/* padding and margin setting */
+.padding_20{
+  padding:20px;
+}
+.side_padding_10{
+  padding-inline:10px;
+}
+.bottom_margin_10{
+  margin-bottom:10px;
+}
+.right_margin_10{
+  margin-right:10px;
+}
+
+
+/* 시간을 block인 <p></p>태그를 사용했을때, 위치를 옆으로 나열하기 위해서는 아래의 방법으로*/
+/*.status-bar__column:first-child{ //중간에 있는 자식을 가리키고 싶을 때-> :nth-child(2)*/
+/*  display:flex; /*block단위이던게 inline tag로 바뀜*/
+/*  justify-content:space-between; /*주축=가로축=main축*/
+/*  align-items:center; /*세로축=sub축*/
+/*}*/

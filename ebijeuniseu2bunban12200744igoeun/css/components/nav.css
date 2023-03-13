@@ -1,0 +1,10 @@
+nav{
+  background-color:#f9f9fa;
+
+  position:fixed;
+  width:100%;
+  bottom:0;
+}
+nav > div > a{
+  position:relative;
+}

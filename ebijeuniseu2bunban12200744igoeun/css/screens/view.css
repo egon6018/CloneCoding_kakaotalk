@@ -1,0 +1,45 @@
+/* .menu_in_view */
+main.view{
+  margin-top:160px;
+  background-color:var(--kakao-nav-color);
+}
+
+.menu_in_view h3{
+  padding-bottom:10px;
+}
+.menu_in_view h2{
+  border-bottom:2px solid black;
+  padding-bottom:10px;
+}
+
+/* .scroll_menu */
+
+div.scroll_menu {
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+ 
+div.scroll_menu a {
+    display: inline-block;
+    color: var(--main-color);
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color:white;
+    margin: 10px;
+    border:var(--main-border);
+}
+  
+  div.scroll_menu a:hover {
+    font-weight: 700;
+  }
+
+
+/* 컨텐츠 박스 */
+main.view .content_box{
+  background-color:yellow;
+  height:500px;
+  border-radius:20px;
+  margin-bottom:10px;
+}

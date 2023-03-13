@@ -1,0 +1,18 @@
+.dot_badge_chatting{
+  width:5px;
+  height:5px;
+  background-color:tomato;
+  border-radius:100%;
+  position:absolute;
+  top:25px;
+  left:73px;
+}
+.dot_badge_openchatting{
+  width:5px;
+  height:5px;
+  background-color:tomato;
+  border-radius:100%;
+  position:absolute;
+  top:25px;
+  left:188px;
+}

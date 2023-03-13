@@ -1,0 +1,14 @@
+.screen-header{
+  padding:10px 20px;
+}
+.screen-header__icons i{
+  margin-left:10px;
+}
+/*.screen-header__title>a:link, .screen-header__title>a:visited{
+  color:#2e5cb8;
+  text-decoration:none;
+}*/
+.screen-header__title>a:hover, .screen-header__title>a:active{
+  text-decoration:none;
+  color:#5c85d6;    
+}
